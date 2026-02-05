@@ -1,10 +1,10 @@
-<div align="center">
-
 # 🧠 Mini RAG Intelligence Retrieval System
 
 ## 📋 Overview
 
-**Mini RAG** is a high-performance document intelligence system designed for **Track B: AI Engineer Assessment**. It leverages a sophisticated two-stage retrieval pipeline to deliver accurate, cited answers from PDF documents while maintaining strict factual grounding.
+**Mini RAG** is a high-performance document intelligence system designed for **Track B: AI Engineer Assessment**. It leverages a two-stage retrieval pipeline to deliver accurate, cited answers from PDF documents while maintaining strict factual grounding.
+
+---
 
 ### 🎯 Why Mini RAG?
 
@@ -19,45 +19,34 @@
 
 ## ✨ Key Features
 
-<table>
-<tr>
-<td width="50%">
-
-### 📥 **Hybrid Ingestion**
+### 📥 Hybrid Ingestion
 - Upload PDF documents
 - Direct text paste support
 - Automatic metadata extraction
 
-### 🔍 **Two-Stage Retrieval**
+### 🔍 Two-Stage Retrieval
 1. **Dense Vector Search** via Pinecone (Top-10)
 2. **Semantic Reranking** via Jina AI (Top-3)
 
-### 🎯 **Grounded Inference**
+### 🎯 Grounded Inference
 - Powered by **Llama 3.1** (Groq)
 - Temperature: `0.0` for deterministic output
-- "No-Answer" detection for OOD queries
+- "No-Answer" detection for out-of-domain queries
 
-</td>
-<td width="50%">
-
-### 📚 **Smart Chunking**
+### 📚 Smart Chunking
 - Token-based splitting (1,000 tokens)
 - 15% overlap preservation
 - Semantic boundary detection
 
-### 🔗 **Full Traceability**
+### 🔗 Full Traceability
 - Inline citations `[n]`
 - Source chunk mapping
 - Confidence scoring
 
-### 📊 **Performance Monitoring**
+### 📊 Performance Monitoring
 - Real-time latency tracking
 - Token usage metrics
 - Answer verification status
-
-</td>
-</tr>
-</table>
 
 ---
 
