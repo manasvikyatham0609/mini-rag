@@ -78,6 +78,23 @@
 ```
 
 ---
+## 📂 Project Structure
+
+```
+mini-rag/
+│
+├── 📱 app.py                 # Streamlit UI with dashboard
+├── 🔧 ingest_data.py         # RAG pipeline & reranker logic
+├── 🗄️ setup_db.py            # Pinecone index initialization
+├── 📊 evaluate.py            # Accuracy & performance testing
+├── 📝 evaluation.json        # Gold standard Q/A pairs
+├── 📦 requirements.txt       # Production dependencies
+├── 🎨 architecture.png       # System design diagram
+├── 🔐 .env.example           # Environment template
+└── 📖 README.md              # You are here!
+```
+
+---
 
 
 
@@ -115,20 +132,11 @@ streamlit run app.py
 
 ---
 
-## 📂 Project Structure
 
-```
-mini-rag/
-│
-├── 📱 app.py                 # Streamlit UI with dashboard
-├── 🔧 ingest_data.py         # RAG pipeline & reranker logic
-├── 🗄️ setup_db.py            # Pinecone index initialization
-├── 📊 evaluate.py            # Accuracy & performance testing
-├── 📝 evaluation.json        # Gold standard Q/A pairs
-├── 📦 requirements.txt       # Production dependencies
-├── 🎨 architecture.png       # System design diagram
-├── 🔐 .env.example           # Environment template
-└── 📖 README.md              # You are here!
+### Custom Evaluation
+
+```bash
+python evaluate.py 
 ```
 
 ---
@@ -150,13 +158,6 @@ Validated against a **Gold Set** of 5 diverse domain questions:
 
 
 
-### Custom Evaluation
-
-```bash
-python evaluate.py 
-```
-
----
 
 ## 🛠️ Configuration
 
