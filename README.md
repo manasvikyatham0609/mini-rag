@@ -84,7 +84,7 @@
 ### 1️⃣ Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/mini-rag.git
+git clone https://github.com/manasvikyatham0609/mini-rag.git
 cd mini-rag
 pip install -r requirements.txt
 ```
