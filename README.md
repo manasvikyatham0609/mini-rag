@@ -50,7 +50,8 @@
 
 ---
 
-### 🔄 Processing Pipeline
+## 🔄 Processing Pipeline
+
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -144,8 +145,6 @@ Validated against a **Gold Set** of 5 diverse domain questions:
 
 
 ---
-
-
 
 
 ## 🛠️ Configuration
