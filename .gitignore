@@ -1,0 +1,9 @@
+# Ignore sensitive environment variables
+.env
+
+# Ignore Python cache and local environment files
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store

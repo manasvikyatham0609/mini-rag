@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+pinecone
+pypdf
+sentence-transformers
+langchain-text-splitters
+tiktoken
+requests
